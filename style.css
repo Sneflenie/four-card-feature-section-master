@@ -150,13 +150,15 @@ p {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 1100px;
-        height: 505px;
+        width: 1090px;
+        height: 555px;
         align-items: center;
     }
     .card {
         position: absolute;
         min-width: 344px;
+        height: 244px;
+        padding: 30px;
     }
     #card-1 {
         top: 25%;
@@ -171,5 +173,11 @@ p {
     #card-4 {
         right: 0;
         top: 25%;
+    }
+    .card p {
+        margin-bottom: 45px;
+    }
+    .card h2 {
+        margin-bottom: 10px;
     }
 }
